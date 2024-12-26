@@ -1,0 +1,124 @@
+-----------
+/* Global Styles ประกาศค่าทั่วไปของเว็บเพจ */
+body {
+    margin: 0; /* กำหนดระยะขอบทั้งหมดเป็น 0 คือ ชิดขอบทุกด้าน */
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.container {  /* กำหนดค่าตัวแปร container */
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Section ส่วนด้านบนเว็บเพจ */
+.hero {
+    background: linear-gradient(135deg, #a54ae2, #c16df1);
+    color: rgb(33, 3, 3);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {  /* กำหนดตัวแปรชื่อ hero  ทำงานร่วมกับ แทก < H1 > */
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p { /* กำหนดตัวแปรชื่อ hero  ทำงานร่วมกับ แทก < P > */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.gradient-btn {
+    background: linear-gradient(135deg, #fce93f, #8ef01e);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(135deg, #f03d1e, #fcaa3f);
+    transform: scale(1.05);
+}
+
+/* Destinations Section */
+.destinations {
+    background: #e8f5fd;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.destinations h2 { /* กำหนดตัวแปรชื่อ hero  ทำงานร่วมกับ แทก < H2 > */
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color1 {
+    background: #f769ab;
+}
+
+.color2 {
+    background: #a84fe4;
+}
+
+.color3 {
+    background: #b736d1;
+}
+
+/* About Section */
+.about {
+    background: #c9e8fb;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #2c502e;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #555555;
+}
+
+/* Footer Section */
+.footer {
+    background: #2c504b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p { /* กำหนดตัวแปร footer  ใช้งานร่วมกับ แทก <p>*/
+    margin: 0;
+    font-size: 0.9em;
+}
